@@ -4,11 +4,11 @@ import java.io.File;
 import java.io.IOException;
 import org.apache.commons.io.FileUtils;
 
-public class MakeRoottDir {
+public class MakeRootDir {
     
     private String targetDir;
 
-    public MakeRoottDir(String reposMainFolder) {
+    public MakeRootDir(String reposMainFolder) {
         targetDir = reposMainFolder;
     }
     

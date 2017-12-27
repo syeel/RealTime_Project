@@ -1,6 +1,7 @@
 
 package cloneRepo;
 
+import generateResults.GenerateLog;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -22,10 +23,12 @@ public class CloneExecutors {
     
     public void initExecutor() throws IOException{
         final int WAITTIME = 60;        
-
         int numOfThreads = matricNums.size();
+        GenerateLog log = new GenerateLog();
+        
         List<Future> list = new ArrayList<>();
         ExecutorService executor = java.util.concurrent.Executors.newFixedThreadPool(numOfThreads);
+        
         for(int i=0; i< numOfThreads; i++){
             Runnable worker = new JGitCloneWorker(reposMainFolder, repoURIs.get(i), matricNums.get(i));
             Future future = executor.submit(worker);
@@ -38,7 +41,8 @@ public class CloneExecutors {
                 for (int i = 0; i < list.size(); i++) {
                     if (!list.get(i).isDone()) {
                         list.get(i).cancel(true);
-                        //LoggingAdapter.cloneLog("Repo for " + nameAccountList[i] + " is not being cloned due to passing 1 minute waiting");
+                        log.writeLog("Cloning of repo " + matricNums.get(i) +
+                                     " has been terminated prior to completion. (Clone time exceed 1 minute)");
                     }
                 }
                 executor.shutdownNow();
