@@ -88,7 +88,6 @@ public class CompileWorker implements Runnable {
                     break;
                 }
                 error.writeError(line);
-                //LoggingAdapter.compileLog(line);
             }
         } catch (Exception e) {
             e.printStackTrace();

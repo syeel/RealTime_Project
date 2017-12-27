@@ -95,9 +95,6 @@ public class RunWorker implements Runnable {
                     lineToLog += line;
                 }
             }
-            //LoggingAdapter.runLog(path + "\" && " + action + " " + commandString);
-            //LoggingAdapter.runLog(simpanLine);
-            //LoggingAdapter.runLog("");
             output.writeOutput(lineToLog);
             sleep(3000);
             p.destroyForcibly();
