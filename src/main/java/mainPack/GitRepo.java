@@ -1,4 +1,4 @@
-package cloneRepo;
+package mainPack;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

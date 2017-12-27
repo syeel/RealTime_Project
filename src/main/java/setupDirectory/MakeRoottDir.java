@@ -1,14 +1,14 @@
-package cloneRepo;
+package setupDirectory;
 
 import java.io.File;
 import java.io.IOException;
 import org.apache.commons.io.FileUtils;
 
-public class MakeTargetDir {
+public class MakeRoottDir {
     
-    String targetDir;
+    private String targetDir;
 
-    MakeTargetDir(String reposMainFolder) {
+    public MakeRoottDir(String reposMainFolder) {
         targetDir = reposMainFolder;
     }
     

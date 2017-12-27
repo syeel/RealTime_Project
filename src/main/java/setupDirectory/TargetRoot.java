@@ -1,7 +1,7 @@
 
-package cloneRepo;
+package setupDirectory;
 
-public class TargetPath {
+public class TargetRoot {
     
     private String targetDirectory;
     

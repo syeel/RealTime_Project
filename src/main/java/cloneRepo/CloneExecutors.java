@@ -1,7 +1,6 @@
 
 package cloneRepo;
 
-import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -11,30 +10,19 @@ import java.util.concurrent.TimeUnit;
 
 public class CloneExecutors {
     
+    private String reposMainFolder;
+    private ArrayList<String> repoURIs;
+    private ArrayList<String> matricNums;
+    
+    public CloneExecutors(String reposMainFolder, ArrayList<String> repoURIs, ArrayList<String> matricNums){
+        this.reposMainFolder = reposMainFolder;
+        this.repoURIs = repoURIs;
+        this.matricNums = matricNums;
+    }
+    
     public void initExecutor() throws IOException{
-        final int WAITTIME = 60;
-        String fileSeperator = System.getProperty("file.separator");        
+        final int WAITTIME = 60;        
 
-        TargetPath tar = new TargetPath();
-        String reposMainFolder = tar.getTarget();
-        
-        MakeTargetDir dir = new MakeTargetDir(reposMainFolder);
-        dir.checkDir();
-        
-        GitRepo repo = new GitRepo();
-        repo.readRepoInfo();
-        ArrayList<String> repoURIs = repo.getURIs();
-        ArrayList<String> matricNums = repo.getMatrics();
-
-        // Create folders for every matric number
-        for (int a=0; a<matricNums.size(); a++){
-            String tempMat = matricNums.get(a);
-            File repoDir = new File (reposMainFolder + fileSeperator + tempMat);
-            if (! repoDir.exists()){
-                repoDir.mkdirs();
-            }
-        }
-        
         int numOfThreads = matricNums.size();
         List<Future> list = new ArrayList<>();
         ExecutorService executor = java.util.concurrent.Executors.newFixedThreadPool(numOfThreads);
