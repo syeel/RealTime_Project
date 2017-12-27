@@ -1,455 +1,148 @@
-javac: file not found: testwaitnotify\MyThread.java
+javac: file not found: testwaitnotify\TestWaitNotify.java
 Usage: javac <options> <source files>
 use -help for a list of possible options
+CountThread123.java:2: error: package week2 does not exist
 Issue9.java:3: error: package org.knowm.xchart does not exist
+javac: file not found: assignment1\Asg1_237768.java
+javac: file not found: testwaitnotify\MyThread.java
+javac: file not found: assignment1\CountIssues.java
+javac: file not found: week2\CountThread.java
+javac: file not found: helloworld\HelloWorld.java
+Note: .\assignmentone\CountFiles.java uses unchecked or unsafe operations.
+Note: assignment1\Scan.java uses unchecked or unsafe operations.
+com\stiw3054\issue11\Issue11.java:30: error: non-static variable filter cannot be referenced from a static context
+javac: file not found: twothreads\TwoThreads.java
+javac: file not found: assignment1\CountJavaFile.java
+Note: Count.java uses unchecked or unsafe operations.
+import week2.CountThread;
 import org.knowm.xchart.QuickChart;
+Note: Recompile with -Xlint:unchecked for details.
+Usage: javac <options> <source files>
+Usage: javac <options> <source files>
+        String[] children = dir.list(filter);
+Usage: javac <options> <source files>
+Note: Recompile with -Xlint:unchecked for details.
+Usage: javac <options> <source files>
+Usage: javac <options> <source files>
+                                     ^
+use -help for a list of possible options
+use -help for a list of possible options
+Note: Recompile with -Xlint:unchecked for details.
+Usage: javac <options> <source files>
+Usage: javac <options> <source files>
                        ^
+use -help for a list of possible options
+1 error
 Issue9.java:4: error: package org.knowm.xchart does not exist
+use -help for a list of possible options
+use -help for a list of possible options
+use -help for a list of possible options
+use -help for a list of possible options
 import org.knowm.xchart.SwingWrapper;
+            ^
+1 error
                        ^
 Issue9.java:5: error: package org.knowm.xchart does not exist
 import org.knowm.xchart.XYChart;
                        ^
 Issue9.java:12: error: package org.knowm.xchart does not exist
         final org.knowm.xchart.XYChart genChart = QuickChart.getChart("STIW3054  Display Random Numbers", "Counter", "Number", "add", xyAxis[0], xyAxis[1]);
-com\stiw3054\issue11\Issue11.java:30: error: non-static variable filter cannot be referenced from a static context
                               ^
-        String[] children = dir.list(filter);
 Issue9.java:12: error: cannot find symbol
-                                     ^
-1 error
         final org.knowm.xchart.XYChart genChart = QuickChart.getChart("STIW3054  Display Random Numbers", "Counter", "Number", "add", xyAxis[0], xyAxis[1]);
                                                   ^
   symbol:   variable QuickChart
-javac: file not found: helloworld\HelloWorld.java
   location: class Issue9
 Issue9.java:19: error: cannot find symbol
-Usage: javac <options> <source files>
         final SwingWrapper<XYChart> sWrapper = new SwingWrapper<XYChart>(genChart);
-use -help for a list of possible options
               ^
   symbol:   class SwingWrapper
   location: class Issue9
 Issue9.java:19: error: cannot find symbol
-javac: file not found: twothreads\TwoThreads.java
-javac: file not found: testwaitnotify\TestWaitNotify.java
-Usage: javac <options> <source files>
-Usage: javac <options> <source files>
         final SwingWrapper<XYChart> sWrapper = new SwingWrapper<XYChart>(genChart);
-use -help for a list of possible options
                            ^
+  symbol:   class XYChart
+  location: class Issue9
+Issue9.java:19: error: cannot find symbol
+        final SwingWrapper<XYChart> sWrapper = new SwingWrapper<XYChart>(genChart);
+                                                   ^
+  symbol:   class SwingWrapper
+  location: class Issue9
+Issue9.java:19: error: cannot find symbol
+        final SwingWrapper<XYChart> sWrapper = new SwingWrapper<XYChart>(genChart);
+                                                                ^
+  symbol:   class XYChart
+  location: class Issue9
+9 errors
+javac: file not found: javaapplication3\JavaApplication3.java
+Usage: javac <options> <source files>
+use -help for a list of possible options
+javac: file not found: countthread\MyThread.java
+Usage: javac <options> <source files>
+use -help for a list of possible options
+javac: file not found: rttwothread\RTtwothread.java
+Usage: javac <options> <source files>
+use -help for a list of possible options
+javac: file not found: cloneRepo\testJGit.java
+Usage: javac <options> <source files>
+use -help for a list of possible options
+javac: file not found: rtcountthread\RTcountThread.java
+Usage: javac <options> <source files>
+use -help for a list of possible options
+com\uum\hello\TestHelloWorld.java:8: error: cannot find symbol
+import com.uum.HelloWorld;
+              ^
+  symbol:   class HelloWorld
+  location: package com.uum
+com\uum\hello\TestHelloWorld.java:9: error: package org.junit does not exist
+import org.junit.Assert;
+                ^
+Week07_03\DetermineUserGitRepo.java:18: error: package org.kohsuke.github does not exist
+com\uum\hello\TestHelloWorld.java:10: error: package org.junit does not exist
 Week07_05\DetermineUserGitIssues.java:19: error: package org.kohsuke.github does not exist
-Week07_04\DetermineRepoContents.java:20: error: package org.kohsuke.github does not exist
+Week07_06\DetermineIssueContributions.java:34: error: package org.kohsuke.github does not exist
+import org.kohsuke.github.GHIssue;
+import org.kohsuke.github.GHRepository;
 import org.kohsuke.github.GHIssue;
                          ^
-Week07_05\DetermineUserGitIssues.java:20: error: package org.kohsuke.github does not exist
-import org.kohsuke.github.GHIssueState;
-                         ^
-Week07_05\DetermineUserGitIssues.java:21: error: package org.kohsuke.github does not exist
-import org.kohsuke.github.GHRepository;
-                         ^
-Week07_05\DetermineUserGitIssues.java:22: error: package org.kohsuke.github does not exist
-import org.kohsuke.github.GHUser;
-                         ^
-Week07_03\DetermineUserGitRepo.java:18: error: package org.kohsuke.github does not exist
-Week07_05\DetermineUserGitIssues.java:23: error: package org.kohsuke.github does not exist
-Note: Week07_02\CountDotClass.java uses unchecked or unsafe operations.
-import org.kohsuke.github.GHContent;
-Week07_06\DetermineIssueContributions.java:34: error: package org.kohsuke.github does not exist
-com\uum\hello\TestHelloWorld.java:8: error: cannot find symbol
-javac: file not found: cloneRepo\testJGit.java
-javac: file not found: rtcountthread\RTcountThread.java
-javac: file not found: rttwothread\RTtwothread.java
-Note: .\assignment1\Scan.java uses unchecked or unsafe operations.
-Note: .\assignment1\Scan.java uses unchecked or unsafe operations.
-javac: file not found: javaapplication3\JavaApplication3.java
-Note: assignment1\Scan.java uses unchecked or unsafe operations.
-Note: .\Count.java uses unchecked or unsafe operations.
-Note: Count.java uses unchecked or unsafe operations.
-javac: file not found: countthread\MyThread.java
-CountThread123.java:2: error: package week2 does not exist
-use -help for a list of possible options
-  symbol:   class XYChart
-import org.kohsuke.github.GHRepository;
                          ^
 Week07_03\DetermineUserGitRepo.java:19: error: package org.kohsuke.github does not exist
 import org.kohsuke.github.GHUser;
                          ^
 Week07_03\DetermineUserGitRepo.java:20: error: package org.kohsuke.github does not exist
-Week07_01\MavenPOMEdit.java:24: error: package org.apache.maven.model does not exist
 import org.kohsuke.github.GitHub;
-import org.apache.maven.model.Dependency;
                          ^
-                             ^
 Week07_03\DetermineUserGitRepo.java:28: error: cannot find symbol
-import org.kohsuke.github.GitHub;
-Note: Recompile with -Xlint:unchecked for details.
-                         ^
-import org.kohsuke.github.GHIssue;
-import com.uum.HelloWorld;
-Usage: javac <options> <source files>
-Usage: javac <options> <source files>
-Usage: javac <options> <source files>
-  location: class Issue9
-              ^
-Week07_04\DetermineRepoContents.java:21: error: package org.kohsuke.github does not exist
-Week07_01\MavenPOMEdit.java:26: error: package org.apache.maven.model does not exist
-Usage: javac <options> <source files>
-Note: Recompile with -Xlint:unchecked for details.
-Usage: javac <options> <source files>
-Note: Recompile with -Xlint:unchecked for details.
-Note: Recompile with -Xlint:unchecked for details.
         GitHub github = GitHub.connectAnonymously();
-import week2.CountThread;
-Note: Recompile with -Xlint:unchecked for details.
-Note: Recompile with -Xlint:unchecked for details.
-                         ^
-            ^
-use -help for a list of possible options
         ^
-                         ^
-use -help for a list of possible options
-use -help for a list of possible options
   symbol:   class GitHub
+Week07_04\DetermineRepoContents.java:20: error: package org.kohsuke.github does not exist
+  location: class DetermineUserGitRepo
 Week07_06\DetermineIssueContributions.java:35: error: package org.kohsuke.github does not exist
-1 error
-import org.kohsuke.github.GHRepository;
-Issue9.java:19: error: cannot find symbol
-        final SwingWrapper<XYChart> sWrapper = new SwingWrapper<XYChart>(genChart);
-import org.kohsuke.github.GHIssueComment;
-  location: class DetermineUserGitRepo
-                                                   ^
-Week07_03\DetermineUserGitRepo.java:28: error: cannot find symbol
-use -help for a list of possible options
-  symbol:   class HelloWorld
-use -help for a list of possible options
-Week07_05\DetermineUserGitIssues.java:24: error: package org.kohsuke.github does not exist
                          ^
-import org.apache.maven.model.Model;
-import org.kohsuke.github.PagedIterable;
-  symbol:   class SwingWrapper
-Week07_06\DetermineIssueContributions.java:36: error: package org.kohsuke.github does not exist
-                         ^
-        GitHub github = GitHub.connectAnonymously();
-import org.kohsuke.github.GHIssueState;
-                         ^
-                             ^
-Week07_04\DetermineRepoContents.java:22: error: package org.kohsuke.github does not exist
-  location: class Issue9
-  location: package com.uum
-com\uum\hello\TestHelloWorld.java:9: error: package org.junit does not exist
-Week07_01\MavenPOMEdit.java:27: error: package org.apache.maven.model.io.xpp3 does not exist
-import org.kohsuke.github.GHUser;
-Issue9.java:19: error: cannot find symbol
-Week07_05\DetermineUserGitIssues.java:38: error: cannot find symbol
-                         ^
-        GitHub github = GitHub.connectAnonymously();
-import org.junit.Assert;
-                         ^
-Week07_06\DetermineIssueContributions.java:37: error: package org.kohsuke.github does not exist
-        final SwingWrapper<XYChart> sWrapper = new SwingWrapper<XYChart>(genChart);
-import org.apache.maven.model.io.xpp3.MavenXpp3Reader;
-                        ^
-                                                                ^
-        ^
-                                     ^
-Week07_04\DetermineRepoContents.java:23: error: package org.kohsuke.github does not exist
-  symbol:   class GitHub
-import org.kohsuke.github.GitHub;
-Week07_01\MavenPOMEdit.java:28: error: package org.apache.maven.model.io.xpp3 does not exist
-  symbol:   class XYChart
-  symbol:   variable GitHub
-import org.kohsuke.github.GHPersonSet;
-                ^
-                         ^
-  location: class Issue9
-9 errors
-import org.apache.maven.model.io.xpp3.MavenXpp3Writer;
-Week07_04\DetermineRepoContents.java:54: error: cannot find symbol
-  location: class DetermineUserGitIssues
-  location: class DetermineUserGitRepo
-                         ^
-Week07_06\DetermineIssueContributions.java:38: error: package org.kohsuke.github does not exist
-Week07_03\DetermineUserGitRepo.java:29: error: cannot find symbol
-com\uum\hello\TestHelloWorld.java:10: error: package org.junit does not exist
-    public static void getRepoContents(GHRepository repo, String directoryName) throws IOException{
-                                     ^
-import org.kohsuke.github.GHRepository;
-        GHUser user = github.getUser("zhamri"); //Change parameter to any user ID
-Week07_01\MavenPOMEdit.java:36: error: cannot find symbol
-                                       ^
 import org.junit.Test;
-Week07_05\DetermineUserGitIssues.java:38: error: cannot find symbol
+import org.kohsuke.github.GHContent;
                          ^
-        List<Dependency> dependencies = new LinkedList<Dependency>();
-  symbol:   class GHRepository
-        ^
-        GitHub github = GitHub.connectAnonymously();
-                ^
-                        ^
-  symbol:   class GHUser
-  symbol:   variable GitHub
-             ^
-Week07_06\DetermineIssueContributions.java:39: error: package org.kohsuke.github does not exist
-com\uum\hello\TestHelloWorld.java:18: error: cannot find symbol
-  location: class DetermineRepoContents
-Week07_04\DetermineRepoContents.java:32: error: cannot find symbol
-  location: class DetermineUserGitRepo
-  location: class DetermineUserGitIssues
-    @Test
-  symbol:   class Dependency
-import org.kohsuke.github.GHUser;
-                         ^
-        GitHub github = GitHub.connectAnonymously();
-  location: class MavenPOMEdit
-Week07_03\DetermineUserGitRepo.java:33: error: cannot find symbol
-Week07_05\DetermineUserGitIssues.java:39: error: cannot find symbol
-        GHUser user = github.getUser("zhamri"); //Change parameter to any valid user ID
-Week07_01\MavenPOMEdit.java:36: error: cannot find symbol
-Week07_06\DetermineIssueContributions.java:40: error: package org.kohsuke.github does not exist
-        Map<String,GHRepository> map = user.getRepositories();  
-        ^
-     ^
-                   ^
-import org.kohsuke.github.GitHub;
-        List<Dependency> dependencies = new LinkedList<Dependency>();
-        ^
-  symbol:   class GitHub
-                         ^
-  location: class DetermineRepoContents
-                                                       ^
-  symbol:   class GHUser
-  symbol:   class GHRepository
-  symbol:   class Test
-Week07_06\DetermineIssueContributions.java:41: error: package org.kohsuke.github does not exist
-  location: class DetermineUserGitIssues
-  symbol:   class Dependency
-Week07_04\DetermineRepoContents.java:32: error: cannot find symbol
-  location: class DetermineUserGitRepo
-import org.kohsuke.github.PagedIterable;
-7 errors
-  location: class TestHelloWorld
-Week07_05\DetermineUserGitIssues.java:43: error: cannot find symbol
-        Map<String,GHRepository> map = user.getRepositories();  
-                   ^
-  symbol:   class GHRepository
-  location: class DetermineUserGitIssues
-Week07_05\DetermineUserGitIssues.java:49: error: cannot find symbol
-            GHRepository repo = user.getRepository(names[n].toString());
-            ^
-  symbol:   class GHRepository
-  location: class DetermineUserGitIssues
-Week07_05\DetermineUserGitIssues.java:52: error: cannot find symbol
-                PagedIterable<GHIssue> openIssues = repo.listIssues(GHIssueState.OPEN);
-                ^
-  symbol:   class PagedIterable
-  location: class DetermineUserGitIssues
-Week07_05\DetermineUserGitIssues.java:52: error: cannot find symbol
-                PagedIterable<GHIssue> openIssues = repo.listIssues(GHIssueState.OPEN);
-                              ^
-  symbol:   class GHIssue
-  location: class DetermineUserGitIssues
-Week07_05\DetermineUserGitIssues.java:52: error: cannot find symbol
-                         ^
-        GitHub github = GitHub.connectAnonymously();
-com\uum\hello\TestHelloWorld.java:20: error: cannot find symbol
-                        ^
-                PagedIterable<GHIssue> openIssues = repo.listIssues(GHIssueState.OPEN);
-Week07_06\DetermineIssueContributions.java:107: error: cannot find symbol
-    public static Map<String, Integer> getContributions(String gitId, GHUser user, int repoCount, Object[] repoNames) throws IOException{
-  symbol:   variable GitHub
-                                                                    ^
-  location: class MavenPOMEdit
-  symbol:   variable GHIssueState
-                                                                      ^
-  location: class DetermineRepoContents
-  location: class DetermineUserGitIssues
-  symbol:   class GHUser
-  location: class DetermineIssueContributions
-Week07_06\DetermineIssueContributions.java:139: error: cannot find symbol
-    public static ArrayList<String> getInactive(GHPersonSet<GHUser> students, Map sortedContributions){
-                                                ^
-  symbol:   class GHPersonSet
-  location: class DetermineIssueContributions
-Week07_06\DetermineIssueContributions.java:139: error: cannot find symbol
-    public static ArrayList<String> getInactive(GHPersonSet<GHUser> students, Map sortedContributions){
-                                                            ^
-  symbol:   class GHUser
-  location: class DetermineIssueContributions
-Week07_06\DetermineIssueContributions.java:55: error: cannot find symbol
-        GitHub github = GitHub.connectUsingPassword("", ""); 
-        ^
-  symbol:   class GitHub
-  location: class DetermineIssueContributions
-Week07_06\DetermineIssueContributions.java:55: error: cannot find symbol
-        GitHub github = GitHub.connectUsingPassword("", ""); 
-                        ^
-  symbol:   variable GitHub
-  location: class DetermineIssueContributions
-Week07_06\DetermineIssueContributions.java:57: error: cannot find symbol
-        GHUser user = github.getUser(gitId);
-Week07_05\DetermineUserGitIssues.java:53: error: cannot find symbol
-Week07_04\DetermineRepoContents.java:34: error: cannot find symbol
-Week07_01\MavenPOMEdit.java:39: error: cannot find symbol
-        HelloWorld hw = new HelloWorld();
-        ^
-  symbol:   class GHUser
-  location: class DetermineIssueContributions
-Week07_06\DetermineIssueContributions.java:58: error: cannot find symbol
-        GHPersonSet<GHUser> lectFollowing = user.getFollows();
-        ^
-  symbol:   class GHPersonSet
-  location: class DetermineIssueContributions
-Week07_06\DetermineIssueContributions.java:58: error: cannot find symbol
-        GHPersonSet<GHUser> lectFollowing = user.getFollows();
-                    ^
-  symbol:   class GHUser
-  location: class DetermineIssueContributions
-Week07_06\DetermineIssueContributions.java:61: error: cannot find symbol
-        Map<String,GHRepository> map = user.getRepositories();  
-                   ^
-  symbol:   class GHRepository
-  location: class DetermineIssueContributions
-                PagedIterable<GHIssue> closedIssues = repo.listIssues(GHIssueState.CLOSED);
-        MavenXpp3Reader reader = new MavenXpp3Reader();
-        GHUser user = github.getUser(userID); 
-        ^
-Week07_06\DetermineIssueContributions.java:111: error: cannot find symbol
-        ^
-            GHRepository repo = user.getRepository(repoNames[n].toString());
-  symbol:   class MavenXpp3Reader
-                ^
-  symbol:   class HelloWorld
-        ^
-  location: class TestHelloWorld
-  symbol:   class GHUser
-            ^
-  symbol:   class PagedIterable
-com\uum\hello\TestHelloWorld.java:20: error: cannot find symbol
-  location: class DetermineUserGitIssues
-  location: class MavenPOMEdit
-        HelloWorld hw = new HelloWorld();
-Week07_01\MavenPOMEdit.java:39: error: cannot find symbol
-Week07_05\DetermineUserGitIssues.java:53: error: cannot find symbol
-                PagedIterable<GHIssue> closedIssues = repo.listIssues(GHIssueState.CLOSED);
-                            ^
-        MavenXpp3Reader reader = new MavenXpp3Reader();
-                                     ^
-                              ^
-  symbol:   class HelloWorld
-  symbol:   class GHIssue
-  symbol:   class MavenXpp3Reader
-  location: class TestHelloWorld
-  location: class MavenPOMEdit
-com\uum\hello\TestHelloWorld.java:22: error: cannot find symbol
-  location: class DetermineUserGitIssues
-Week07_05\DetermineUserGitIssues.java:53: error: cannot find symbol
-Week07_01\MavenPOMEdit.java:40: error: cannot find symbol
-        Assert.assertEquals("HeLl0 John","HeLl0 John");
-        ^
-                PagedIterable<GHIssue> closedIssues = repo.listIssues(GHIssueState.CLOSED);
-                                                                      ^
-  symbol:   variable Assert
-  location: class TestHelloWorld
-  symbol:   variable GHIssueState
-  location: class DetermineUserGitIssues
-7 errors
-Week07_05\DetermineUserGitIssues.java:55: error: cannot find symbol
-                for (GHIssue issue: openIssues){
-                     ^
-  symbol:   class GHIssue
-  location: class DetermineUserGitIssues
-Week07_05\DetermineUserGitIssues.java:60: error: cannot find symbol
-                for (GHIssue issue: closedIssues){
-                     ^
-  symbol:   class GHIssue
-  location: class DetermineUserGitIssues
-19 errors
-  symbol:   class GHRepository
-  location: class DetermineIssueContributions
-Week07_06\DetermineIssueContributions.java:114: error: cannot find symbol
-                PagedIterable<GHIssue> issues = repo.listIssues(GHIssueState.ALL);
-                ^
-  symbol:   class PagedIterable
-  location: class DetermineIssueContributions
-Week07_06\DetermineIssueContributions.java:114: error: cannot find symbol
-                PagedIterable<GHIssue> issues = repo.listIssues(GHIssueState.ALL);
-                              ^
-  symbol:   class GHIssue
-  location: class DetermineIssueContributions
-Week07_06\DetermineIssueContributions.java:114: error: cannot find symbol
-                PagedIterable<GHIssue> issues = repo.listIssues(GHIssueState.ALL);
-                                                                ^
-  symbol:   variable GHIssueState
-  location: class DetermineIssueContributions
-Week07_06\DetermineIssueContributions.java:116: error: cannot find symbol
-                for (GHIssue issue: issues){
-                     ^
-  symbol:   class GHIssue
-  location: class DetermineIssueContributions
-Week07_06\DetermineIssueContributions.java:118: error: cannot find symbol
-                        PagedIterable<GHIssueComment> commentsForIssue = issue.listComments();
-                        ^
-  symbol:   class PagedIterable
-  location: class DetermineIssueContributions
-  location: class DetermineRepoContents
-Week07_04\DetermineRepoContents.java:37: error: cannot find symbol
-        GHRepository repo = user.getRepository(repoName);
-        ^
-  symbol:   class GHRepository
-  location: class DetermineRepoContents
-Week07_04\DetermineRepoContents.java:55: error: cannot find symbol
-        List<GHContent> repoContent = repo.getDirectoryContent(directoryName);
-             ^
-  symbol:   class GHContent
-  location: class DetermineRepoContents
-Week07_04\DetermineRepoContents.java:57: error: cannot find symbol
-        for (GHContent contentEntry : repoContent) {
+Week07_04\DetermineRepoContents.java:21: error: package org.kohsuke.github does not exist
+import org.kohsuke.github.GHRepository;
 Week06_01\LineChart.java:16: error: package org.knowm.xchart does not exist
-             ^
-        Model model = reader.read(new FileInputStream(new File(baseDir, "\\pom.xml")));
-Week07_06\DetermineIssueContributions.java:118: error: cannot find symbol
+                         ^
+                ^
 import org.knowm.xchart.QuickChart;
                        ^
 Week06_01\LineChart.java:17: error: package org.knowm.xchart does not exist
 import org.knowm.xchart.SwingWrapper;
                        ^
+Week07_05\DetermineUserGitIssues.java:20: error: package org.kohsuke.github does not exist
+import org.kohsuke.github.GHIssueComment;
+Week07_03\DetermineUserGitRepo.java:28: error: cannot find symbol
+Week07_04\DetermineRepoContents.java:22: error: package org.kohsuke.github does not exist
 Week06_01\LineChart.java:18: error: package org.knowm.xchart does not exist
-import org.knowm.xchart.XYChart;
-                       ^
-Week06_01\LineChart.java:27: error: cannot find symbol
-        final XYChart chart = QuickChart.getChart("STIW3054: Chart for 1 mil Random Numbers", "Counter", "Number", "val", initdata[0], initdata[1]);
-              ^
-  symbol:   class XYChart
-  location: class LineChart
-Week06_01\LineChart.java:27: error: cannot find symbol
-        final XYChart chart = QuickChart.getChart("STIW3054: Chart for 1 mil Random Numbers", "Counter", "Number", "val", initdata[0], initdata[1]);
-                              ^
-  symbol:   variable QuickChart
-  location: class LineChart
-Week06_01\LineChart.java:30: error: cannot find symbol
-        final SwingWrapper<XYChart> sw = new SwingWrapper<XYChart>(chart);
-              ^
-  symbol:   class SwingWrapper
-  location: class LineChart
-Week06_01\LineChart.java:30: error: cannot find symbol
-        final SwingWrapper<XYChart> sw = new SwingWrapper<XYChart>(chart);
-                           ^
-  symbol:   class XYChart
-  location: class LineChart
-Week06_01\LineChart.java:30: error: cannot find symbol
-        final SwingWrapper<XYChart> sw = new SwingWrapper<XYChart>(chart);
-                                             ^
-  symbol:   class SwingWrapper
-  location: class LineChart
-Week06_01\LineChart.java:30: error: cannot find symbol
-        final SwingWrapper<XYChart> sw = new SwingWrapper<XYChart>(chart);
-                                                          ^
-  symbol:   class XYChart
-  location: class LineChart
-  symbol:   class GHContent
-        ^
-                        PagedIterable<GHIssueComment> commentsForIssue = issue.listComments();
-9 errors
-  location: class DetermineRepoContents
-11 errors
+import org.kohsuke.github.GHUser;
+com\uum\hello\TestHelloWorld.java:18: error: cannot find symbol
+        GitHub github = GitHub.connectAnonymously();
+                         ^
+                         ^
+Week07_04\DetermineRepoContents.java:23: error: package org.kohsuke.github does not exist
+import org.kohsuke.github.GitHub;
+                         ^

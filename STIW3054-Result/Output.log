@@ -1,28 +1,14 @@
 The system cannot find the path specified.
 The system cannot find the path specified.
 The system cannot find the path specified.
-Error: Could not find or load main class twothreadw2_02\TwoThreadw2_02
-Error: Could not find or load main class TwoThreads
-Error: Main method not found in class Count, please define the main method as:   public static void main(String[] args)or a JavaFX application class must extend javafx.application.Application
-Error: Could not find or load main class CountThread
-Error: Could not find or load main class week1\Week1
-Error: Could not find or load main class cc
-Error: Could not find or load main class assignment2\FindLine
-Error: Could not find or load main class assignment2\FindKeywords
-Error: Could not find or load main class Test_files\Assignment2\MyThread2
-Error: Could not find or load main class helloworld\HelloWorld
-Error: Could not find or load main class assignment1\Find
-Error: Could not find or load main class assignment1\Assignment1
-Error: Could not find or load main class assignment1\OpenJava
-Error: Could not find or load main class testwaitnotify\TestWaitNotify
-Error: Could not find or load main class comparethread\CompareThread
-Error: Could not find or load main class MyThreadTwo\MyThreadTwo
-Error: Could not find or load main class dd
-Error: Could not find or load main class testwaitnotify\MyThread
-Error: Could not find or load main class MySleep
-Error: Could not find or load main class assignment1\Scan
+The system cannot find the path specified.
 Error: Could not find or load main class countthread\MyThread
-Error: Could not find or load main class rt_issue_05_05\RT_Issue_05_05
-Error: Could not find or load main class assignment1\OpenJava
-Error: Could not find or load main class rt_issue_05_06\RT_Issue_05_06
-Error: Could not find or load main class javaapplication3\JavaApplication3
+The system cannot find the path specified.
+Error: Could not find or load main class week2\CountThread
+Error: Could not find or load main class CountThread123
+The system cannot find the path specified.
+Error: Could not find or load main class cloneRepo\testJGit
+Error: Could not find or load main class week5\TestAtomicInteger1p
+Error: Could not find or load main class counttotalrandomnumoftwothreads\CountThread
+Error: Could not find or load main class comparethreads\CompareThreads
+Number of Java Files = 0Number of Issues = 0
